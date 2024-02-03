@@ -4,26 +4,27 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class EjercicioUno {
+public class EjercicioDos {
 
-    public EjercicioUno() throws IOException {
+    public EjercicioDos() throws IOException {
 
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println( "\nIngrese a continuacion los numeros a sumar: " );
         String input;
+
         double suma = 0;
 
         int i = 1;
-        while (i <= 10) {
+        do {
 
-            System.out.print( "\nn" + i + ": = ");
+            System.out.print( "n" + i + ": = ");
             input = reader.readLine();
             suma += Double.parseDouble(input);
             i ++;
 
-        }
+        } while (i <= 10);
 
         System.out.println( "\nEl total es de: " + suma );
 
     }
+
 }

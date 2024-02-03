@@ -36,11 +36,19 @@ public class cMenu {
             System.out.print("[16] Alumno mayor\n");
             System.out.print("[17] Modificacion 22\n");
             System.out.print("[18] Formar vector 2\n");
-            System.out.print("[19] Operaciones en un vector de 15x12\n");
+            System.out.print("[19] Operaciones en una matriz de 15x12\n");
             System.out.print("[20] Sumar 2 vectores de 100\n");
             System.out.print("[21] Dos vectores con diagonal principal\n");
             System.out.print("[22] Cambiar negativos x 0 (12x19)\n");
             System.out.print("[23] Calificaciones por encima del promedio\n");
+            System.out.print("[24] Hallar magnitud\n");
+            System.out.print("[25] Contar negativos y la diagonal principal\n");
+            System.out.print("[26] Multiplicar vector m y n\n");
+            System.out.print("[27] Trabajadores\n");
+            System.out.print("[28] Encontrar al negativo\n");
+            System.out.print("[29] Vectores y archivos\n");
+            System.out.print("[30] Multiplicar diagonal\n");
+            System.out.print("[31] Matriz con pares e impares\n");
             System.out.println( "\nSALIR [0]" );
 
             System.out.print("\nIngrese su eleccion: ");
@@ -161,6 +169,46 @@ public class cMenu {
                     break;
                 case 23:
                     EjercicioVeintitres w = new EjercicioVeintitres();
+                    System.out.println("\nPulse enter para salir. ");
+                    reader.readLine();
+                    break;
+                case 24:
+                    EjercicioVeinticuatro x = new EjercicioVeinticuatro();
+                    System.out.println("\nPulse enter para salir. ");
+                    reader.readLine();
+                    break;
+                case 25:
+                    EjercicioVeinticinco y = new EjercicioVeinticinco();
+                    System.out.println("\nPulse enter para salir. ");
+                    reader.readLine();
+                    break;
+                case 26:
+                    EjercicioVeintiseis z = new EjercicioVeintiseis();
+                    System.out.println("\nPulse enter para salir. ");
+                    reader.readLine();
+                    break;
+                case 27:
+                    EjercicioVeintisiete a7 = new EjercicioVeintisiete();
+                    System.out.println("\nPulse enter para salir. ");
+                    reader.readLine();
+                    break;
+                case 28:
+                    EjercicioVeintiocho a8 = new EjercicioVeintiocho();
+                    System.out.println("\nPulse enter para salir. ");
+                    reader.readLine();
+                    break;
+                case 29:
+                    EjercicioVeintinueve a9 = new EjercicioVeintinueve();
+                    System.out.println("\nPulse enter para salir. ");
+                    reader.readLine();
+                    break;
+                case 30:
+                    EjercicioTreinta b0 = new EjercicioTreinta();
+                    System.out.println("\nPulse enter para salir. ");
+                    reader.readLine();
+                    break;
+                case 31:
+                    EjercicioTreintayuno b1 = new EjercicioTreintayuno();
                     System.out.println("\nPulse enter para salir. ");
                     reader.readLine();
                     break;
